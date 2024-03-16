@@ -42,7 +42,6 @@
             button11 = new Button();
             button12 = new Button();
             button13 = new Button();
-            button14 = new Button();
             button17 = new Button();
             button18 = new Button();
             button19 = new Button();
@@ -73,6 +72,8 @@
             button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button2.ForeColor = SystemColors.ButtonHighlight;
             button2.Location = new Point(137, 534);
             button2.Name = "button2";
             button2.Size = new Size(87, 79);
@@ -87,6 +88,7 @@
             button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
             button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
             button3.Location = new Point(242, 534);
             button3.Name = "button3";
             button3.Size = new Size(87, 79);
@@ -102,6 +104,7 @@
             button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button4.ForeColor = SystemColors.ButtonHighlight;
             button4.Location = new Point(346, 534);
             button4.Name = "button4";
             button4.Size = new Size(87, 79);
@@ -131,7 +134,8 @@
             button6.BackgroundImage = (Image)resources.GetObject("button6.BackgroundImage");
             button6.BackgroundImageLayout = ImageLayout.Stretch;
             button6.FlatStyle = FlatStyle.Popup;
-            button6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button6.ForeColor = SystemColors.ButtonFace;
             button6.Location = new Point(242, 437);
             button6.Name = "button6";
             button6.Size = new Size(87, 79);
@@ -146,7 +150,8 @@
             button7.BackgroundImage = (Image)resources.GetObject("button7.BackgroundImage");
             button7.BackgroundImageLayout = ImageLayout.Stretch;
             button7.FlatStyle = FlatStyle.Popup;
-            button7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            button7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button7.ForeColor = SystemColors.ButtonHighlight;
             button7.Location = new Point(137, 437);
             button7.Name = "button7";
             button7.Size = new Size(87, 79);
@@ -161,7 +166,8 @@
             button8.BackgroundImage = (Image)resources.GetObject("button8.BackgroundImage");
             button8.BackgroundImageLayout = ImageLayout.Stretch;
             button8.FlatStyle = FlatStyle.Popup;
-            button8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            button8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button8.ForeColor = SystemColors.ButtonHighlight;
             button8.Location = new Point(32, 437);
             button8.Name = "button8";
             button8.Size = new Size(87, 79);
@@ -191,6 +197,8 @@
             button10.BackgroundImage = (Image)resources.GetObject("button10.BackgroundImage");
             button10.BackgroundImageLayout = ImageLayout.Stretch;
             button10.FlatStyle = FlatStyle.Popup;
+            button10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button10.ForeColor = SystemColors.ButtonHighlight;
             button10.Location = new Point(242, 339);
             button10.Name = "button10";
             button10.Size = new Size(87, 79);
@@ -205,6 +213,8 @@
             button11.BackgroundImage = (Image)resources.GetObject("button11.BackgroundImage");
             button11.BackgroundImageLayout = ImageLayout.Stretch;
             button11.FlatStyle = FlatStyle.Popup;
+            button11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button11.ForeColor = SystemColors.ButtonHighlight;
             button11.Location = new Point(137, 339);
             button11.Name = "button11";
             button11.Size = new Size(87, 79);
@@ -219,6 +229,8 @@
             button12.BackgroundImage = (Image)resources.GetObject("button12.BackgroundImage");
             button12.BackgroundImageLayout = ImageLayout.Stretch;
             button12.FlatStyle = FlatStyle.Popup;
+            button12.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button12.ForeColor = SystemColors.ButtonHighlight;
             button12.Location = new Point(32, 339);
             button12.Name = "button12";
             button12.Size = new Size(87, 79);
@@ -242,20 +254,6 @@
             button13.UseVisualStyleBackColor = false;
             button13.Click += DivisionButton;
             // 
-            // button14
-            // 
-            button14.BackColor = Color.Transparent;
-            button14.BackgroundImage = (Image)resources.GetObject("button14.BackgroundImage");
-            button14.BackgroundImageLayout = ImageLayout.Stretch;
-            button14.FlatStyle = FlatStyle.Popup;
-            button14.ForeColor = SystemColors.ButtonHighlight;
-            button14.Location = new Point(242, 147);
-            button14.Name = "button14";
-            button14.Size = new Size(87, 79);
-            button14.TabIndex = 18;
-            button14.Text = "%";
-            button14.UseVisualStyleBackColor = true;
-            // 
             // button17
             // 
             button17.BackColor = Color.Transparent;
@@ -277,6 +275,8 @@
             button18.BackgroundImage = (Image)resources.GetObject("button18.BackgroundImage");
             button18.BackgroundImageLayout = ImageLayout.Stretch;
             button18.FlatStyle = FlatStyle.Popup;
+            button18.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button18.ForeColor = SystemColors.ButtonHighlight;
             button18.Location = new Point(242, 244);
             button18.Name = "button18";
             button18.Size = new Size(87, 79);
@@ -291,6 +291,8 @@
             button19.BackgroundImage = (Image)resources.GetObject("button19.BackgroundImage");
             button19.BackgroundImageLayout = ImageLayout.Stretch;
             button19.FlatStyle = FlatStyle.Popup;
+            button19.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button19.ForeColor = SystemColors.ButtonHighlight;
             button19.Location = new Point(137, 244);
             button19.Name = "button19";
             button19.Size = new Size(87, 79);
@@ -305,6 +307,8 @@
             button20.BackgroundImage = (Image)resources.GetObject("button20.BackgroundImage");
             button20.BackgroundImageLayout = ImageLayout.Stretch;
             button20.FlatStyle = FlatStyle.Popup;
+            button20.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button20.ForeColor = SystemColors.ButtonHighlight;
             button20.Location = new Point(32, 244);
             button20.Name = "button20";
             button20.Size = new Size(87, 79);
@@ -349,7 +353,6 @@
             Controls.Add(pictureBox1);
             Controls.Add(display);
             Controls.Add(button13);
-            Controls.Add(button14);
             Controls.Add(button17);
             Controls.Add(button18);
             Controls.Add(button19);
@@ -393,7 +396,6 @@
         private Button button11;
         private Button button12;
         private Button button13;
-        private Button button14;
         private Button button17;
         private Button button18;
         private Button button19;

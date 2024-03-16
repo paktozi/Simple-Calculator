@@ -23,7 +23,7 @@ namespace SimpleCalculator
 
         private void Number1Button(object sender, EventArgs e)
         {
-            NumberButtonPressed('1');                                 //                           1         
+            NumberButtonPressed('1');                                 //                           1                      
         }
 
         private void Number2Button(object sender, EventArgs e)
