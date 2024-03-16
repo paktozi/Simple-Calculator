@@ -1,1 +1,2 @@
-Test unfinished calculator project.
+Beta project for a simple calculator.
+![Uploading Screenshot jpg.png…]()
