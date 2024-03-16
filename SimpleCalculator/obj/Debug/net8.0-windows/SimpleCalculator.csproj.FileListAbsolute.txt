@@ -1,0 +1,17 @@
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.Form1.resources
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.csproj.GenerateResource.cache
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.AssemblyInfoInputs.cache
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.AssemblyInfo.cs
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.csproj.CoreCompileInputs.cache
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.exe
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.deps.json
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.runtimeconfig.json
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.dll
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.pdb
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.dll
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\refint\SimpleCalculator.dll
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.pdb
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.genruntimeconfig.cache
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\ref\SimpleCalculator.dll
+E:\Programs\C#\Exersise\Calculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.Properties.Resources.resources
