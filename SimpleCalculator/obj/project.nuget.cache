@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zEz3iO6V4A4CAx2ljt/ovsnI+rEvOvwBQWt/Xw376XtsrvJlxPKzofJIhIa+KK0NS5fASdvaiHXItDeC4p0QYg==",
+  "dgSpecHash": "lisxox3jxtfKq5wc4jwCwmLUfyrfj82hPrPfVJGJn6+6/H4D0dspqfGZ9zEZROxVtI5iU5d6WBY+D6psXPP4pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Simple-Calculator\\SimpleCalculator\\SimpleCalculator.csproj",
+  "projectFilePath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Simple-Calculator-Windows-Form\\SimpleCalculator\\SimpleCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
