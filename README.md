@@ -1,3 +1,4 @@
 Beta project for a simple calculator.
-![Uploading Screenshot jpg.jpg…]()
+![Screenshot jpg](https://github.com/paktozi/Simple-Calculator-Windows-Form/assets/130216112/97e153cb-ffcb-4919-81f0-94d3ba42ada9)
+
 
