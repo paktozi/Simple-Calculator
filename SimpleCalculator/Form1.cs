@@ -62,30 +62,40 @@ namespace SimpleCalculator
         {
             display.Text += ".";
             displayValue += ".";                          //                                             .
+            button3.Enabled = false;
         }
         private void PlusButton(object sender, EventArgs e) //                              +
         {
             display.Text += "+";
             displayValue += "+";
+            button3.Enabled = true;
+            DisableOperatorButtons();
         }
         private void SubtractButton(object sender, EventArgs e)  //                       -
         {
             display.Text += "-";
             displayValue += "-";
+            button3.Enabled = true;
+            DisableOperatorButtons();
         }
         private void MultipleButton(object sender, EventArgs e) //                         x
         {
             display.Text += "*";
             displayValue += "*";
+            button3.Enabled = true;
+            DisableOperatorButtons();
         }
         private void DivisionButton(object sender, EventArgs e) //                         /
         {
             display.Text += "/";
             displayValue += "/";
+            button3.Enabled = true;
+            DisableOperatorButtons();
         }
         private void ResultButton(object sender, EventArgs e)  //                          =
         {
             double result = 0;
+
             if (displayValue.Contains("+"))
             {
                 string[] numbers = displayValue.Split("+");
@@ -109,12 +119,30 @@ namespace SimpleCalculator
 
             display.Text = result.ToString();
             displayValue = result.ToString();
+            button3.Enabled = true;
+            EnableOperatorButtons();
         }
 
         private void ClearButton(object sender, EventArgs e)
         {
             display.Text = " ";
             displayValue = " ";
+            button3.Enabled = true;
+            EnableOperatorButtons();
+        }
+        private void DisableOperatorButtons()
+        {
+            button5.Enabled = false;
+            button13.Enabled = false;
+            button17.Enabled = false;
+            button9.Enabled = false;
+        }
+        private void EnableOperatorButtons()
+        {
+            button5.Enabled = true;
+            button13.Enabled = true;
+            button17.Enabled = true;
+            button9.Enabled = true;
         }
     }
 }
