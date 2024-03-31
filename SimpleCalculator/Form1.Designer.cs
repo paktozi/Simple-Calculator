@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             button1 = new Button();
             button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            buttonComma = new Button();
+            buttonResult = new Button();
+            buttonAddition = new Button();
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
-            button9 = new Button();
+            buttonSubtract = new Button();
             button10 = new Button();
             button11 = new Button();
             button12 = new Button();
-            button13 = new Button();
-            button17 = new Button();
+            buttonDivision = new Button();
+            buttonMultiply = new Button();
             button18 = new Button();
             button19 = new Button();
             button20 = new Button();
@@ -82,51 +82,51 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += Number0Button;
             // 
-            // button3
+            // buttonComma
             // 
-            button3.BackColor = Color.Transparent;
-            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
-            button3.BackgroundImageLayout = ImageLayout.Stretch;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button3.Location = new Point(242, 534);
-            button3.Name = "button3";
-            button3.Size = new Size(87, 79);
-            button3.TabIndex = 2;
-            button3.Text = ",";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += DotButton;
+            buttonComma.BackColor = Color.Transparent;
+            buttonComma.BackgroundImage = (Image)resources.GetObject("buttonComma.BackgroundImage");
+            buttonComma.BackgroundImageLayout = ImageLayout.Stretch;
+            buttonComma.FlatStyle = FlatStyle.Popup;
+            buttonComma.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            buttonComma.Location = new Point(242, 534);
+            buttonComma.Name = "buttonComma";
+            buttonComma.Size = new Size(87, 79);
+            buttonComma.TabIndex = 2;
+            buttonComma.Text = ",";
+            buttonComma.UseVisualStyleBackColor = false;
+            buttonComma.Click += DotButton;
             // 
-            // button4
+            // buttonResult
             // 
-            button4.BackColor = Color.Transparent;
-            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
-            button4.BackgroundImageLayout = ImageLayout.Stretch;
-            button4.FlatStyle = FlatStyle.Popup;
-            button4.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button4.ForeColor = SystemColors.ButtonHighlight;
-            button4.Location = new Point(346, 534);
-            button4.Name = "button4";
-            button4.Size = new Size(87, 79);
-            button4.TabIndex = 3;
-            button4.Text = "=";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += ResultButton;
+            buttonResult.BackColor = Color.Transparent;
+            buttonResult.BackgroundImage = (Image)resources.GetObject("buttonResult.BackgroundImage");
+            buttonResult.BackgroundImageLayout = ImageLayout.Stretch;
+            buttonResult.FlatStyle = FlatStyle.Popup;
+            buttonResult.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            buttonResult.ForeColor = SystemColors.ButtonHighlight;
+            buttonResult.Location = new Point(346, 534);
+            buttonResult.Name = "buttonResult";
+            buttonResult.Size = new Size(87, 79);
+            buttonResult.TabIndex = 3;
+            buttonResult.Text = "=";
+            buttonResult.UseVisualStyleBackColor = false;
+            buttonResult.Click += ResultButton;
             // 
-            // button5
+            // buttonAddition
             // 
-            button5.BackColor = Color.Transparent;
-            button5.BackgroundImage = (Image)resources.GetObject("button5.BackgroundImage");
-            button5.BackgroundImageLayout = ImageLayout.Stretch;
-            button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button5.Location = new Point(346, 437);
-            button5.Name = "button5";
-            button5.Size = new Size(87, 79);
-            button5.TabIndex = 7;
-            button5.Text = "+";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += PlusButton;
+            buttonAddition.BackColor = Color.Transparent;
+            buttonAddition.BackgroundImage = (Image)resources.GetObject("buttonAddition.BackgroundImage");
+            buttonAddition.BackgroundImageLayout = ImageLayout.Stretch;
+            buttonAddition.FlatStyle = FlatStyle.Popup;
+            buttonAddition.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            buttonAddition.Location = new Point(346, 437);
+            buttonAddition.Name = "buttonAddition";
+            buttonAddition.Size = new Size(87, 79);
+            buttonAddition.TabIndex = 7;
+            buttonAddition.Text = "+";
+            buttonAddition.UseVisualStyleBackColor = false;
+            buttonAddition.Click += PlusButton;
             // 
             // button6
             // 
@@ -176,20 +176,20 @@
             button8.UseVisualStyleBackColor = false;
             button8.Click += Number1Button;
             // 
-            // button9
+            // buttonSubtract
             // 
-            button9.BackColor = Color.Transparent;
-            button9.BackgroundImage = (Image)resources.GetObject("button9.BackgroundImage");
-            button9.BackgroundImageLayout = ImageLayout.Stretch;
-            button9.FlatStyle = FlatStyle.Popup;
-            button9.Font = new Font("Comic Sans MS", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button9.Location = new Point(346, 339);
-            button9.Name = "button9";
-            button9.Size = new Size(87, 79);
-            button9.TabIndex = 11;
-            button9.Text = "-";
-            button9.UseVisualStyleBackColor = false;
-            button9.Click += SubtractButton;
+            buttonSubtract.BackColor = Color.Transparent;
+            buttonSubtract.BackgroundImage = (Image)resources.GetObject("buttonSubtract.BackgroundImage");
+            buttonSubtract.BackgroundImageLayout = ImageLayout.Stretch;
+            buttonSubtract.FlatStyle = FlatStyle.Popup;
+            buttonSubtract.Font = new Font("Comic Sans MS", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            buttonSubtract.Location = new Point(346, 339);
+            buttonSubtract.Name = "buttonSubtract";
+            buttonSubtract.Size = new Size(87, 79);
+            buttonSubtract.TabIndex = 11;
+            buttonSubtract.Text = "-";
+            buttonSubtract.UseVisualStyleBackColor = false;
+            buttonSubtract.Click += SubtractButton;
             // 
             // button10
             // 
@@ -239,35 +239,35 @@
             button12.UseVisualStyleBackColor = false;
             button12.Click += Number4Button;
             // 
-            // button13
+            // buttonDivision
             // 
-            button13.BackColor = Color.Transparent;
-            button13.BackgroundImage = (Image)resources.GetObject("button13.BackgroundImage");
-            button13.BackgroundImageLayout = ImageLayout.Stretch;
-            button13.FlatStyle = FlatStyle.Popup;
-            button13.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            button13.Location = new Point(346, 147);
-            button13.Name = "button13";
-            button13.Size = new Size(87, 79);
-            button13.TabIndex = 19;
-            button13.Text = "/";
-            button13.UseVisualStyleBackColor = false;
-            button13.Click += DivisionButton;
+            buttonDivision.BackColor = Color.Transparent;
+            buttonDivision.BackgroundImage = (Image)resources.GetObject("buttonDivision.BackgroundImage");
+            buttonDivision.BackgroundImageLayout = ImageLayout.Stretch;
+            buttonDivision.FlatStyle = FlatStyle.Popup;
+            buttonDivision.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            buttonDivision.Location = new Point(346, 147);
+            buttonDivision.Name = "buttonDivision";
+            buttonDivision.Size = new Size(87, 79);
+            buttonDivision.TabIndex = 19;
+            buttonDivision.Text = "/";
+            buttonDivision.UseVisualStyleBackColor = false;
+            buttonDivision.Click += DivisionButton;
             // 
-            // button17
+            // buttonMultiply
             // 
-            button17.BackColor = Color.Transparent;
-            button17.BackgroundImage = (Image)resources.GetObject("button17.BackgroundImage");
-            button17.BackgroundImageLayout = ImageLayout.Stretch;
-            button17.FlatStyle = FlatStyle.Popup;
-            button17.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            button17.Location = new Point(346, 244);
-            button17.Name = "button17";
-            button17.Size = new Size(87, 79);
-            button17.TabIndex = 15;
-            button17.Text = "x";
-            button17.UseVisualStyleBackColor = false;
-            button17.Click += MultipleButton;
+            buttonMultiply.BackColor = Color.Transparent;
+            buttonMultiply.BackgroundImage = (Image)resources.GetObject("buttonMultiply.BackgroundImage");
+            buttonMultiply.BackgroundImageLayout = ImageLayout.Stretch;
+            buttonMultiply.FlatStyle = FlatStyle.Popup;
+            buttonMultiply.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            buttonMultiply.Location = new Point(346, 244);
+            buttonMultiply.Name = "buttonMultiply";
+            buttonMultiply.Size = new Size(87, 79);
+            buttonMultiply.TabIndex = 15;
+            buttonMultiply.Text = "x";
+            buttonMultiply.UseVisualStyleBackColor = false;
+            buttonMultiply.Click += MultipleButton;
             // 
             // button18
             // 
@@ -352,21 +352,21 @@
             ClientSize = new Size(458, 640);
             Controls.Add(pictureBox1);
             Controls.Add(display);
-            Controls.Add(button13);
-            Controls.Add(button17);
+            Controls.Add(buttonDivision);
+            Controls.Add(buttonMultiply);
             Controls.Add(button18);
             Controls.Add(button19);
             Controls.Add(button20);
-            Controls.Add(button9);
+            Controls.Add(buttonSubtract);
             Controls.Add(button10);
             Controls.Add(button11);
             Controls.Add(button12);
-            Controls.Add(button5);
+            Controls.Add(buttonAddition);
             Controls.Add(button6);
             Controls.Add(button7);
             Controls.Add(button8);
-            Controls.Add(button4);
-            Controls.Add(button3);
+            Controls.Add(buttonResult);
+            Controls.Add(buttonComma);
             Controls.Add(button2);
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
@@ -385,18 +385,18 @@
 
         private Button button1;
         private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private Button buttonComma;
+        private Button buttonResult;
+        private Button buttonAddition;
         private Button button6;
         private Button button7;
         private Button button8;
-        private Button button9;
+        private Button buttonSubtract;
         private Button button10;
         private Button button11;
         private Button button12;
-        private Button button13;
-        private Button button17;
+        private Button buttonDivision;
+        private Button buttonMultiply;
         private Button button18;
         private Button button19;
         private Button button20;

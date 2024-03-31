@@ -62,34 +62,34 @@ namespace SimpleCalculator
         {
             display.Text += ".";
             displayValue += ".";                          //                                             .
-            button3.Enabled = false;
+            buttonComma.Enabled = false;
         }
         private void PlusButton(object sender, EventArgs e) //                              +
         {
             display.Text += "+";
             displayValue += "+";
-            button3.Enabled = true;
+            buttonComma.Enabled = true;
             DisableOperatorButtons();
         }
         private void SubtractButton(object sender, EventArgs e)  //                       -
         {
             display.Text += "-";
             displayValue += "-";
-            button3.Enabled = true;
+            buttonComma.Enabled = true;
             DisableOperatorButtons();
         }
         private void MultipleButton(object sender, EventArgs e) //                         x
         {
             display.Text += "*";
             displayValue += "*";
-            button3.Enabled = true;
+            buttonComma.Enabled = true;
             DisableOperatorButtons();
         }
         private void DivisionButton(object sender, EventArgs e) //                         /
         {
             display.Text += "/";
             displayValue += "/";
-            button3.Enabled = true;
+            buttonComma.Enabled = true;
             DisableOperatorButtons();
         }
         private void ResultButton(object sender, EventArgs e)  //                          =
@@ -100,6 +100,7 @@ namespace SimpleCalculator
             {
                 string[] numbers = displayValue.Split("+");
                 result = double.Parse(numbers[0]) + double.Parse(numbers[1]);
+
             }
             else if (displayValue.Contains("-"))
             {
@@ -119,7 +120,7 @@ namespace SimpleCalculator
 
             display.Text = result.ToString();
             displayValue = result.ToString();
-            button3.Enabled = true;
+            buttonComma.Enabled = true;
             EnableOperatorButtons();
         }
 
@@ -127,22 +128,22 @@ namespace SimpleCalculator
         {
             display.Text = " ";
             displayValue = " ";
-            button3.Enabled = true;
+            buttonComma.Enabled = true;
             EnableOperatorButtons();
         }
         private void DisableOperatorButtons()
         {
-            button5.Enabled = false;
-            button13.Enabled = false;
-            button17.Enabled = false;
-            button9.Enabled = false;
+            buttonAddition.Enabled = false;
+            buttonDivision.Enabled = false;
+            buttonMultiply.Enabled = false;
+            buttonSubtract.Enabled = false;
         }
         private void EnableOperatorButtons()
         {
-            button5.Enabled = true;
-            button13.Enabled = true;
-            button17.Enabled = true;
-            button9.Enabled = true;
+            buttonAddition.Enabled = true;
+            buttonDivision.Enabled = true;
+            buttonMultiply.Enabled = true;
+            buttonSubtract.Enabled = true;
         }
     }
 }
